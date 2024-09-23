@@ -1,12 +1,12 @@
 <p align="center">
    <a href="https://github.com/kranthikumarkaranam/e-commerce_admin">
-    <img src="https://github.com/user-attachments/assets/6591cd15-5e64-4747-afad-f0a86d2426c2" alt="logo" width="180" height="180">
+    <img src="https://github.com/user-attachments/assets/c112f556-7fbe-4d2d-8508-41a2e6212fcd" alt="logo" width="180" height="180">
   </a>
   
-  <h1 align="center">MoonFlix</h1>
+  <h1 align="center">AuthXpert</h1>
 
   <p align="center">
-🌙 MoonFlix — Elevate your movie experience with a single click! Discover cinematic marvels with effortless sorting by categories and genres to match your mood. Dive deeper with actor insights, captivating synopses, and mesmerizing trailers for upcoming gems. Unleash an enchanting adventure with MoonFlix's intuitive search. Say goodbye 👋 to endless scrolling and embrace a new era of movie magic. Explore MoonFlix today for unparalleled entertainment!
+The comprehensive authentication system encompasses a complete process, including login 🔑, registration, email account activation, password reset, and notifications. It features advanced form validation and secure routes 🔒, along with session manipulation and more...
   </p>
 
 </p>
@@ -33,7 +33,7 @@
 
 <p>Immerse yourself in its design and functionality with an interactive live demo — simply click the link to explore.</p>
 
-**Live Preview** ➡️ [Demo](https://moonflix-kranthi.vercel.app/)
+**Live Preview** ➡️ [Demo](https://authxpert-kranthi.vercel.app)
 
 <br>
 <br>
@@ -79,25 +79,21 @@
 
 **Here are some of the standout features of the project:**
 
-- **Effortless Sorting** 📂: Easily discover films by sorting them into categories and genres to match your mood.
+- **Login & Registration** 🔑: Seamless user access through secure login and registration processes.
 
-- **Actor Insights** 🎭: Access in-depth information about actors to enhance your viewing experience.
+- **Email Account Activation 📧**: Verify user identities with email activation, ensuring security from the start.
 
-- **Captivating Synopses** 📖: Read engaging summaries of films to help you choose your next watch.
+- **Password Reset 🔄**: Simplify account recovery with a user-friendly password reset mechanism.
 
-- **Mesmerizing Trailers** 🎥: Enjoy trailers for upcoming releases, providing a sneak peek into future cinematic gems.
+- **Advanced Form Validation ✅**: Enhance user experience with rigorous form validation, minimizing errors and improving data integrity.
 
-- **Intuitive Search** 🔍: Utilize a user-friendly search function to quickly find movies without endless scrolling.
+- **Secure Routes 🔒**: Protect sensitive user data by implementing secure routing protocols.
 
-- **Movie Recommendations** 🌠: Receive personalized movie suggestions based on your preferences for a tailored viewing experience.
+- **Session Manipulation 🔄**: Effectively manage user sessions to maintain security and accessibility throughout the application.
 
-- **TMDB API Integration** 🌐: Leverage the TMDB API for accurate and up-to-date movie data, ensuring a comprehensive catalog.
+- **Email Notifications 📬**: Keep users informed with timely email notifications for account-related activities.
 
-- **Pagination for Movies List** 📄: Navigate through extensive movie lists seamlessly with efficient pagination for improved user experience.
-
-- **Enhanced Movie Discovery** 🌟: Explore a wide range of films and elevate your entertainment experience with just a click.
-
-_Experience the magic of movies with MoonFlix today!_
+_Successfully implemented this robust authentication system, enhancing user security and accessibility while gaining expertise in secure route handling and advanced form validation. Revolutionize your user experience today with a secure and efficient authentication process!_
 
 <br>
 <br>
@@ -107,13 +103,13 @@ _Experience the magic of movies with MoonFlix today!_
 **1. Clone the repository:**
 
 ```sh
-git clone https://github.com/kranthikumarkaranam/MoonFlix.git
+git clone https://github.com/kranthikumarkaranam/AuthXpert.git
 ```
 
 **2. Go to the project directory:**
 
 ```sh
-cd MoonFlix
+cd AuthXpert
 ```
 
 **3. Install dependencies using npm:**
@@ -127,7 +123,7 @@ npm install
 > Before starting the server add these _[env](#env)_ variables.
 
 ```sh
-npm start
+npm run dev
 ```
 
 <br>
@@ -137,9 +133,32 @@ npm start
 
 > To run this project, you need to add the following environment variables to your `.env` file in the project's root directory.
 
-> Also, feel free to take a look at the `.env.example` file _[here](https://github.com/kranthikumarkaranam/MoonFlix/blob/main/.env.example)_.
+> Also, feel free to take a look at the `.env.example` file _[here](https://github.com/kranthikumarkaranam/AuthXpert/blob/main/.env.example)_.
 
-- `REACT_APP_TMDB_KEY`
+- `MONGODB_URL`
+- `NEXTAUTH_URL`
+- `NEXTAUTH_SECRET`
+- `GITHUB_ID`
+- `GITHUB_SECRET`
+- `GOOGLE_ID`
+- `GOOGLE_SECRET`
+- `DISCORD_ID`
+- `DISCORD_SECRET`
+- `TWITTER_ID`
+- `TWITTER_SECRET`
+- `FACEBOOK_ID`
+- `FACEBOOK_SECRET`
+- `AUTH0_ID`
+- `AUTH0_SECRET`
+- `AUTH0_ISSUER_URL`
+- `MAILING_EMAIL`
+- `MAILING_PASSWORD`
+- `SMTP_HOST`
+- `SMTP_EMAIL`
+- `SMTP_PASSWORD`
+- `SMTP_PORT`
+- `RESET_TOKEN_SECRET`
+- `ACTIVATION_TOKEN_SECRET`
 
 <br>
 <br>
@@ -148,11 +167,23 @@ npm start
 
 **Technologies used in the project:**
 
+- Typescript
 - React.js
-- React Router
-- Styled Components
-- SASS
-- AOS
+- NEXT.js
+- MongoDB
+- Mongoose
+- JWT
+- Next Auth
+- React Hook Form
+- React Toastify
+- React Spinners
+- Nodemailer
+- Handlebars
+- axios
+- bcryptjs
+- validator
+- zod
+- zxcvbn
 
 <br>
 <br>
@@ -161,11 +192,11 @@ npm start
 
 Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
-- See _[Contributing](https://github.com/kranthikumarkaranam/MoonFlix/blob/main/CONTRIBUTING.md)_ for ways to get started.
-- If you have suggestions for adding or removing projects, feel free to _[open an issue](https://github.com/kranthikumarkaranam/MoonFlix/issues/new)_ to discuss it, or directly create a pull request by following the guidelines _[here](#pull)_.
+- See _[Contributing](https://github.com/kranthikumarkaranam/AuthXpert/blob/main/CONTRIBUTING.md)_ for ways to get started.
+- If you have suggestions for adding or removing projects, feel free to _[open an issue](https://github.com/kranthikumarkaranam/AuthXpert/issues/new)_ to discuss it, or directly create a pull request by following the guidelines _[here](#pull)_.
 - Please make sure you check your spelling and grammar.
 - Create individual PR for each suggestion.
-- Also, please read through the _[Code of Conduct](https://github.com/kranthikumarkaranam/MoonFlix/blob/main/CODE_OF_CONDUCT.md)_ before posting your first idea as well.
+- Also, please read through the _[Code of Conduct](https://github.com/kranthikumarkaranam/AuthXpert/blob/main/CODE_OF_CONDUCT.md)_ before posting your first idea as well.
 
 <br>
 <br>
