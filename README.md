@@ -21,6 +21,7 @@ The comprehensive authentication system encompasses a complete process, includin
 - [💡 Key Features](#features)
 - [🛠️ Installation & Set Up](#installation)
 - [🌱 Environment Variables](#env)
+- [🏭 Building & Running for Production](#production)
 - [💻 Tech Stack](#tech)
 - [🍰 Contribution Guidelines](#contribution)
 - [📝 Creating a Pull Request](#pull)
@@ -132,6 +133,23 @@ npm install
 
 ```sh
 npm run dev
+```
+
+<br>
+<br>
+
+<h2 id="production">🏭 Building & Running for Production</h2>
+
+**1. Generate a full static production build:**
+
+```sh
+npm run build
+```
+
+**2. Preview the site as it will appear once deployed:**
+
+```sh
+npm run start
 ```
 
 <br>
