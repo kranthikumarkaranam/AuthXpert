@@ -44,33 +44,39 @@ The comprehensive authentication system encompasses a complete process, includin
 
 <br>
 
-<h3 align="center">⬅️ Dropdown Search ➡️</h3>
+<h3 align="center">⬅️ SignUp Page ➡️</h3>
 
-<img src="https://github.com/user-attachments/assets/3ef2e0c4-eba1-42d4-a49d-b9c666f13a0e" alt="screenshot" width="auto" height="auto">
-
-<br>
-
-<h3 align="center">⬅️ Trailer Modal ➡️</h3>
-
-<img src="https://github.com/user-attachments/assets/05fc98bc-9fe2-4ac1-9a01-dac7e9cb908d" alt="screenshot" width="auto" height="auto">
+<img src="https://github.com/user-attachments/assets/39400875-b7ed-47f5-bf1f-91938470a748" alt="screenshot" width="auto" height="auto">
 
 <br>
 
-<h3 align="center">⬅️ Movies List Page ➡️</h3>
+<h3 align="center">⬅️ Account Activation Email ➡️</h3>
 
-<img src="https://github.com/user-attachments/assets/17199006-c57d-42f8-9ef1-31967b2f25ac" alt="screenshot" width="auto" height="auto">
-
-<br>
-
-<h3 align="center">⬅️ Movie Details Page ➡️</h3>
-
-<img src="https://github.com/user-attachments/assets/929d34ae-f59a-4169-ad18-70c35e1f9d03" alt="screenshot" width="auto" height="auto">
+<img src="https://github.com/user-attachments/assets/103a1dc6-66c4-4897-8f9a-6495b068fc03" alt="screenshot" width="auto" height="auto">
 
 <br>
 
-<h3 align="center">⬅️ Actor Page ➡️</h3>
+<h3 align="center">⬅️ SignIn Page ➡️</h3>
 
-<img src="https://github.com/user-attachments/assets/f5f48b72-b43b-459d-b5a6-3206b72f18f4" alt="screenshot" width="auto" height="auto">
+<img src="https://github.com/user-attachments/assets/4cb68b97-0df2-47ef-a6f5-4b1d2e9ba69b" alt="screenshot" width="auto" height="auto">
+
+<br>
+
+<h3 align="center">⬅️ Home Page ➡️</h3>
+
+<img src="https://github.com/user-attachments/assets/e1c165f4-8ff3-4dba-ab7e-e949a8da03f6" alt="screenshot" width="auto" height="auto">
+
+<br>
+
+<h3 align="center">⬅️ Password Reset Page ➡️</h3>
+
+<img src="https://github.com/user-attachments/assets/10a50887-93e8-430f-ac4c-0a10624bc66c" alt="screenshot" width="auto" height="auto">
+
+<br>
+
+<h3 align="center">⬅️ Reset Password Email ➡️</h3>
+
+<img src="https://github.com/user-attachments/assets/835e351e-e278-4f09-a780-f5a4fdabb7f7" alt="screenshot" width="auto" height="auto">
 
 <br>
 <br>
@@ -81,7 +87,7 @@ The comprehensive authentication system encompasses a complete process, includin
 
 - **Login & Registration** 🔑: Seamless user access through secure login and registration processes.
 
-- **Email Account Activation 📧**: Verify user identities with email activation, ensuring security from the start.
+- **Email Verification and Notifications 📧**: Implemented email notifications for account verification and password resets using Elastic Email for added security.
 
 - **Password Reset 🔄**: Simplify account recovery with a user-friendly password reset mechanism.
 
@@ -91,9 +97,11 @@ The comprehensive authentication system encompasses a complete process, includin
 
 - **Session Manipulation 🔄**: Effectively manage user sessions to maintain security and accessibility throughout the application.
 
-- **Email Notifications 📬**: Keep users informed with timely email notifications for account-related activities.
+- **Password Strength Estimation 🛡️**: Implemented Zxcvbn for estimating password strength, encouraging users to create stronger passwords.
+- **Customizable Email Templates ✉️**: Leveraged Handlebars for personalized email notifications, enhancing user engagement.
+- **Integration of Modern Tools ⚙️**: Utilized React.js, Next.js, MongoDB, TypeScript, and additional libraries such as NextAuth, React Hook Form, and Zod to create a user-friendly and secure authentication system.
 
-_Successfully implemented this robust authentication system, enhancing user security and accessibility while gaining expertise in secure route handling and advanced form validation. Revolutionize your user experience today with a secure and efficient authentication process!_
+_This robust authentication system not only enhances user security but also provides a smooth and reliable experience, setting a solid foundation for future expansions. Revolutionize your user experience today with a secure and efficient authentication process!_
 
 <br>
 <br>
