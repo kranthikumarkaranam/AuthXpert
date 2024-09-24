@@ -1,5 +1,5 @@
 <p align="center">
-   <a href="https://github.com/kranthikumarkaranam/e-commerce_admin">
+   <a href="https://github.com/kranthikumarkaranam/AuthXpert">
     <img src="https://github.com/user-attachments/assets/c112f556-7fbe-4d2d-8508-41a2e6212fcd" alt="logo" width="180" height="180">
   </a>
   
